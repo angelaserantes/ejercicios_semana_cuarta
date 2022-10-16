@@ -9,14 +9,11 @@ public class ejercicio2 {
         String palabra = dato.nextLine();
         if (palabra.contains("b")){
             System.out.println("Contiene la letra b minúscula");
-        } else if (palabra.contains("B")) {
-            System.out.println("Contiene la letra B pero mayúscula");
         }else {
-            System.out.println("No contiene la letra b");
+            System.out.println("No contiene la letra b minúscula");
         }
     }
 }
 
 
-//Crea un programa que muestre por pantalla si una palabra que introduzca el
-//usuario contiene la letra b minúscula.
+//Crea un programa que muestre por pantalla si una palabra que introduzca el usuario contiene la letra b minúscula.
