@@ -20,7 +20,7 @@ public class ejercicio4 {
             System.out.println("Introduce el valor de la altura");
             int altura = datos.nextInt();
             int areaRectangulo = (base * altura);
-            System.out.println("El área del triángulo es " + areaRectangulo);
+            System.out.println("El área del rectángulo es " + areaRectangulo);
         } else if (figura.contains("pentágono")) {
             System.out.println("Introduce el valor del perímetro");
             int perimetro = datos.nextInt();
@@ -34,7 +34,7 @@ public class ejercicio4 {
             System.out.println("Introduce el valor del apotema");
             int apotema = datos.nextInt();
             int areaHexagono = (perimetro * apotema) / 2;
-            System.out.println("El área del pentágono es " + areaHexagono);
+            System.out.println("El área del hexágono es " + areaHexagono);
         }else {System.out.println("La figura no está en nuestro sistema");}
     }
 }
